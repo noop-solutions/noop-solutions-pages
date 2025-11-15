@@ -6,6 +6,7 @@
     <title>No&middot;Op Solutions</title>
     <link rel="shortcut icon" href="https://noop.solutions/static/assets/img/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script href="static/js/load-html.js" />
   </head>
   <body>
     <main>
@@ -16,15 +17,12 @@
             <span class="fs-4">No&middot;Op Solutions</span>
             <span class="fs-8 px-2">{ Software You Are Missing }</span>
           </a>
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Solutions</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Support</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <ul class="nav nav-pills" w3-include-html="_menu.html">
           </ul>
         </header>
       </div>
     </main>
+    <script>loadHTML();</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
