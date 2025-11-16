@@ -2,10 +2,8 @@
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  console.log("z=" + z.length);
-  z2 = document.querySelectorAll("*[w3-include-html]");
-  console.log("z2=" + z2.length);
+  // z_old = document.getElementsByTagName("*");
+  z = document.querySelectorAll("*[w3-include-html]");
   for (i = 0; i < z.length; i++) {
     elmnt = z[i];
     /*search for elements with a certain atrribute:*/
